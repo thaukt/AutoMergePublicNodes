@@ -45,8 +45,22 @@ proxies:
   server: freea.glyphara.com
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷韩国 101 | 1x KR
+  password: e8dd7b89-37bc-4498-b30c-80ac2015f292
+  port: 31311
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷韩国 102 | 1x KR
+  password: e8dd7b89-37bc-4498-b30c-80ac2015f292
+  port: 31313
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 11,12|韩国|@ripaojiedian
+  name: 12,13|韩国|@ripaojiedian
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -54,7 +68,7 @@ proxies:
   skip-cert-verify: true
   sni: www.yrtok.com
   type: trojan
-- name: 13|KR_speednode_0099
+- name: 14|KR_speednode_0099
   network: ws
   port: 50000
   server: 222.113.39.207
@@ -70,7 +84,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 13|KR_speednode_0100
+  name: 14|KR_speednode_0100
   port: 443
   reality-opts:
     public-key: P--AseuV7sGvgy7YJ8iX58GxeP5-M2oq0Mq2YxPAXRs
@@ -82,17 +96,3 @@ proxies:
   type: vless
   udp: true
   uuid: 74dd96cd-3b12-4e03-8605-aeeb188d93f3
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷韩国 101 | 1x KR
-  password: 3d657d3f-2c54-40ff-81be-fae2e10efb0f
-  port: 31311
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷韩国 102 | 1x KR
-  password: 3d657d3f-2c54-40ff-81be-fae2e10efb0f
-  port: 31313
-  server: freem.vidalith.com
-  type: ss
-  udp: true

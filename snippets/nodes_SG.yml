@@ -23,10 +23,31 @@ proxies:
   server: freea.glyphara.com
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 101 | 1x SG
+  password: e8dd7b89-37bc-4498-b30c-80ac2015f292
+  port: 31171
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 102 | 1x SG
+  password: e8dd7b89-37bc-4498-b30c-80ac2015f292
+  port: 31173
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 103 | 1x SG
+  password: e8dd7b89-37bc-4498-b30c-80ac2015f292
+  port: 31175
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|新加坡|@ripaojiedian
+  name: 12,13|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -43,7 +64,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|新加坡2|@ripaojiedian
+  name: 12,13|新加坡2|@ripaojiedian
   network: ws
   port: '46019'
   server: 112.29.213.228
@@ -57,24 +78,3 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 101 | 1x SG
-  password: 3d657d3f-2c54-40ff-81be-fae2e10efb0f
-  port: 31171
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 102 | 1x SG
-  password: 3d657d3f-2c54-40ff-81be-fae2e10efb0f
-  port: 31173
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 103 | 1x SG
-  password: 3d657d3f-2c54-40ff-81be-fae2e10efb0f
-  port: 31175
-  server: freem.vidalith.com
-  type: ss
-  udp: true

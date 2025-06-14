@@ -20,8 +20,8 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 101 | 1x DE
-  password: 3d657d3f-2c54-40ff-81be-fae2e10efb0f
+  name: 2|🇩🇪德国 101 | 1x DE
+  password: e8dd7b89-37bc-4498-b30c-80ac2015f292
   port: 31471
   server: freem.vidalith.com
   type: ss
